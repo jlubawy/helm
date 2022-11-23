@@ -1,0 +1,6 @@
+dependencies:
+- name: issue-x-lib
+  repository: file://../issue-x-lib-1
+  version: 1.0.0
+digest: sha256:f88c909d697eb4aa444c50a7824f240518bc3a42dfe3550ebeee2d766b4aac10
+generated: "2022-11-22T16:20:57.768097-08:00"

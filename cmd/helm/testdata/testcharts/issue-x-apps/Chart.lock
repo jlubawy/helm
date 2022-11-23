@@ -1,0 +1,9 @@
+dependencies:
+- name: issue-x-app-1
+  repository: file://../issue-x-app-1
+  version: 1.0.0
+- name: issue-x-app-2
+  repository: file://../issue-x-app-2
+  version: 2.0.0
+digest: sha256:c63ce3071fce661e14f825928eb13efe0b988086d9cc3dab0c5a24a7416087e2
+generated: "2022-11-22T16:22:51.967441-08:00"

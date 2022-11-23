@@ -1,0 +1,8 @@
+apiVersion: v2
+name: issue-x-app-1
+type: application
+version: 1.0.0
+dependencies:
+  - name: issue-x-lib
+    repository: file://../issue-x-lib-1
+    version: 1.0.0
