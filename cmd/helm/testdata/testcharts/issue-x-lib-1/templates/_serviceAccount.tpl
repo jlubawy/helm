@@ -1,4 +1,4 @@
-{{- define "issue-x.serviceAccount.v1" -}}
+{{- define "issue-x.v1.serviceAccount" -}}
 ---
 apiVersion: v1
 kind: ServiceAccount
