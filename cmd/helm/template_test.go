@@ -100,6 +100,11 @@ func TestTemplateCmd(t *testing.T) {
 			golden: "output/template-show-only-multiple.txt",
 		},
 		{
+			name:   "check issue-x-apps chart",
+			cmd:    fmt.Sprintf("template '%s'", "testdata/testcharts/issue-x-apps"),
+			golden: "output/template-issue-x-apps.txt",
+		},
+		{
 			name:   "template with show-only glob",
 			cmd:    fmt.Sprintf("template '%s' --show-only templates/subdir/role*", chartPath),
 			golden: "output/template-show-only-glob.txt",

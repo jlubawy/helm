@@ -1,5 +1,7 @@
 "issue-x-app-1":
-  enabled: false
+   # if changed to false then newLabel is added as expected
+   # or if issue-x-lib is updated to issue-x-lib-2 newLabel will also work
+  enabled: true
 
 "issue-x-app-2":
   enabled: true

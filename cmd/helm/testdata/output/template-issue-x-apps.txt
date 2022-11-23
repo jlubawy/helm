@@ -1,0 +1,19 @@
+---
+# Source: issue-x-apps/charts/issue-x-app-1/templates/serviceAccount.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: issue-x
+  namespace: "default"
+  labels:
+    name: "issue-x"
+---
+# Source: issue-x-apps/charts/issue-x-app-2/templates/serviceAccount.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: issue-x
+  namespace: "default"
+  labels:
+    name: "issue-x"
+    newLabel: Hello World
