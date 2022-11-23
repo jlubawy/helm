@@ -6,7 +6,7 @@ metadata:
   name: issue-x
   namespace: "default"
   labels:
-    name: "issue-x"
+    name: "issue-x-lib-1"
 ---
 # Source: issue-x-apps/charts/issue-x-app-2/templates/serviceAccount.yaml
 apiVersion: v1
@@ -15,5 +15,4 @@ metadata:
   name: issue-x
   namespace: "default"
   labels:
-    name: "issue-x"
-    newLabel: Hello World
+    name: "issue-x-lib-2"

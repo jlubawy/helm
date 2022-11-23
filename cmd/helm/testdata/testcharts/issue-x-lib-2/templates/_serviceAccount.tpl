@@ -6,8 +6,5 @@ metadata:
   name: issue-x
   namespace: {{ .Release.Namespace | quote }}
   labels:
-    name: "issue-x"
-  {{- if .Values.newLabel }}
-    newLabel: {{ .Values.newLabel }}
-  {{- end }}
+    name: "issue-x-lib-2"
 {{- end -}}
